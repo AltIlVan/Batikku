@@ -1,9 +1,11 @@
-# 🧵 Batikku – Laravel CRUD for Local Batik Management
+# 🧵 Batikku, Laravel CRUD for Local Batik Management
 
 ![Laravel](https://img.shields.io/badge/Laravel-10.x-red?logo=laravel)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+
+![Homepage](public/Homepage.jpg)
 
 **Batikku** adalah aplikasi berbasis Laravel yang dirancang untuk mengelola katalog dan transaksi batik lokal secara terstruktur. Website ini memiliki **fitur lengkap**, mulai dari login, register, manajemen data produk, hingga peran admin dan user yang terpisah.
 
@@ -29,9 +31,17 @@
    - Jika `admin`, akan diarahkan ke halaman manajemen data (user dan barang).
    - Jika `user`, bisa melihat katalog produk batik dan melakukan pembelian.
 4. Seluruh data produk dikelola dengan sistem CRUD oleh admin.
-5. Data pengguna dapat dikontrol melalui panel admin untuk memastikan keamanan dan keteraturan sistem.
+5. Memiliki berbagai jenis filter mulai dari ketgori batik, min dan max harga, dan stok ukuran agar user bisa dengan mudah mengeksplorasi shop
+6. Filter yang canggih untuk admin management produk
+7. Grafik Statistik realtime untuk mendukung penuh admin dalam pengecekan transaksi serta variasi filter yang membantu
+8. Data pengguna dapat dikontrol melalui panel admin untuk memastikan keamanan dan keteraturan sistem.
 
 ---
+## 📸 Preview Website
+![Detail Produk](public/Katalog.jpg)
+![Detail Per Produk](public/Produk.jpg)
+![Admin Page](public/Admin.jpg)
+![Grafik](public/Grafik.jpg)
 
 ## 🚀 Cara Menjalankan Project Ini
 
